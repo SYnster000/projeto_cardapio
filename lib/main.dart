@@ -42,15 +42,19 @@ class _ViewLoginState extends State<ViewLogin> {
             child: Column(
               //crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Icon(
-                  Icons.currency_exchange,
-                  size: 140,
-                  color: primaryColor,
-                ),
+                Text("Cardápio PRO",
+                style: TextStyle(
+                  fontSize: 50
+                ),),
                 SizedBox(height: 30),
-                Text("Login",
-                  style: TextStyle(fontSize: 40),
-                  ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Text("Login",
+                      style: TextStyle(fontSize: 40),
+                      ),
+                  ],
+                ),
                 SizedBox(height: 30),
                 TextFormField(
                   controller: txtEmail,
