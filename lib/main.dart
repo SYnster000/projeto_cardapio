@@ -40,7 +40,7 @@ class _ViewLoginState extends State<ViewLogin> {
         child: Form(
             key: formKey,
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
+              //crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Icon(
                   Icons.currency_exchange,
